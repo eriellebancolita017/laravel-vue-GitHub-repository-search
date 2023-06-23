@@ -36,6 +36,10 @@ Laravel v9.52.9(PHP 8.0.25) + Vue3
 In the project directory, you can run:
 
 ### Run Laravel backend
+
+https://github.com/eriellebancolita017/laravel-vue-test/blob/a27122531d2b50fa02182b0ad67ae1412e9d615c/config/services.php#L35
+Change the github access toke with yours. (current one has revoked)
+
 ```
 php artisan serve
 ```

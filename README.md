@@ -29,7 +29,7 @@ Please include instructions on how to run the application locally so that it can
 
 # Getting Started with Laravel + Vue.js test project
 
-Laravel v8.5(php v8) + Vue3 
+Laravel v9.52.9(PHP 8.0.25) + Vue3 
 
 ## Available Scripts
 

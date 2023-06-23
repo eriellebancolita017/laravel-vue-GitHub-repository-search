@@ -37,8 +37,14 @@ In the project directory, you can run:
 
 ### Run Laravel backend
 
+First: Change the github access token with yours. (current one has revoked)
 https://github.com/eriellebancolita017/laravel-vue-test/blob/a27122531d2b50fa02182b0ad67ae1412e9d615c/config/services.php#L35
-Change the github access token with yours. (current one has revoked)
+
+Second: Install laravel composer
+```
+composer install
+```
+Third: Run laravel backend
 
 ```
 php artisan serve
@@ -47,13 +53,13 @@ php artisan serve
 
 ### Run Vue3 front-end
 
-install npm package
+First: install npm package
 
 ```
 npm install
 ```
 
-Then run front-end
+Second: Then run front-end
 
 ```
 npm run dev
@@ -62,6 +68,8 @@ npm run dev
 Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 
 ## Action
+
+First run front-end by `npm run dev` and then run `php artisan serve`
 
 There is a table to show 500 repositories with php topic. 
 It has search on the top of table and sortable columns such as name, popularity (stargazers_count), activity (updated_at).

@@ -31,4 +31,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'github' => [
+        'token' => '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',
+    ],
+
 ];

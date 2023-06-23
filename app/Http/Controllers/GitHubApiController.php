@@ -18,7 +18,7 @@ class GitHubApiController extends Controller
         for ($page = 1; $page <= 5; $page++) {
             $query = [
                 'q' => 'topic:php',
-                'per_page' => 20,
+                'per_page' => 100,
                 'page' => $page,
             ];
 
@@ -60,7 +60,7 @@ class GitHubApiController extends Controller
         });
 
         // pagination logic
-        $perPage = $request->query('per_page', 5);
+        $perPage = $request->query('per_page', 10);
         $page = $request->query('page', 1);
         $paginatedRepos = $repos->slice(($page - 1) * $perPage, $perPage)->values();
 

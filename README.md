@@ -40,6 +40,8 @@ In the project directory, you can run:
 First: Change the github access token with yours. (current one has revoked)
 https://github.com/eriellebancolita017/laravel-vue-test/blob/a27122531d2b50fa02182b0ad67ae1412e9d615c/config/services.php#L35
 
+- GitHub access token used for high-rate API call
+
 Second: Install laravel composer
 ```
 composer install

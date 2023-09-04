@@ -1,4 +1,4 @@
-# Backend task:
+# Backend:
 Write a small application that queries GitHub's API and returns 500 repos with the topic "php" (https://developer.github.com/v3/search/#search-repositories). Your application should expose the following endpoint:
 
 /api/repos - returns 500 repositories with the topic "php"
@@ -15,7 +15,7 @@ Don't use GitHub's API query params to sort the results. Instead, retrieve the d
 You must use Laravel as a framework.
 
 
-# Frontend task (vue/react):
+# Frontend (vue.js):
 - create one page that shows the repository data from the api above using your favorite datatable library
 - add search form to search repository by name (server side)
 - enable pagination (server side)

@@ -27,7 +27,7 @@ You must use Laravel as a framework.
 create a repo on github (could be mono repo or separate repo for backend and frontend), then push the code to the repo.
 Please include instructions on how to run the application locally so that it can be tested on a *nix operating system.
 
-# Getting Started with Laravel + Vue.js test project
+# Getting Started with Laravel + Vue.js github repository search project
 
 Laravel v9.52.9(PHP 8.0.25) + Vue3 
 
